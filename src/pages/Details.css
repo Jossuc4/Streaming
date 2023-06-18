@@ -1,0 +1,87 @@
+/* !Main */
+
+/* !Menu */
+.menu{
+    background-color:  rgba(14, 14, 71, 0.897);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.link{
+    color: white;
+}
+.link:hover{
+    transition: color ease 0.4s;
+    color: rgb(65, 60, 60);
+}
+
+/* !Screen */
+.descScreen{
+    display:block;
+    width: 100%;
+    margin-top: 20px;
+}
+#image{
+    width: 100%;
+    position: relative;
+}
+#image>img{
+    width: 97%;
+    height: 60vh;
+    margin-left: 1.5%;
+}
+#focuser{
+    position: absolute;
+    top: 0;
+    left: 1.5%;
+    width: 97%;
+    height: 100%;
+    background-color: rgba(53, 27, 18, 0.205);
+}
+.titre{
+    text-decoration: underline white;
+    text-transform: uppercase;
+}
+#line{
+    width:98%;
+    margin: 10px 1%;
+    height: 10px;
+    background-color: white;
+
+}
+#desc{
+    color: white;
+    padding: 10px 0 ;
+    font-size: 16px;
+}
+
+/* !Descriptions */
+.descField{
+    display: flex;
+    width: 95.5%;
+    margin: 5px 1%;
+    border: solid 1px white;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    flex-grow: 1;
+}
+.descField>div{
+    width: 50%;
+}
+.rsm{
+    text-transform: uppercase;
+    color: yellow;
+    text-decoration: underline yellow;
+    font-size: large;
+}
+#points{
+    position: absolute;
+    right: 70px;
+    top: 10px;
+    font-size: 30px;
+}

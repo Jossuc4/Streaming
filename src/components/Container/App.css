@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.descScreen{
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+}
+#img,#desc{
+  width: 30%;
+}
+.images{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  flex-grow: 1;
+}
+.images>div>img{
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  /* CSS styles for small screens */
+  .container{
+    height: 100vh;
+  }
+  body{
+    background-color: red;
+  }
+}

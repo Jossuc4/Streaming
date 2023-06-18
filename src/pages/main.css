@@ -1,0 +1,10 @@
+.bloc{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    flex-grow:1;
+}
+body{
+    background: rgba(2, 2, 19, 0.925);
+    scroll-behavior: smooth;
+}

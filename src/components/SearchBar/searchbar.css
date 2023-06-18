@@ -1,0 +1,25 @@
+.find{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+button{
+    background: url("search.png");
+    background-size:32px 35px;
+    cursor: pointer;
+    height: 35px;
+    border: none;
+    color:rgba(255, 255, 255, 0);
+}
+button:hover{
+    transition: all  1s;
+    background-size: 40px 45px;
+}
+input{
+    border-radius: 10px;
+    border: solid 1px rgb(253, 251, 251);
+}
+input:focus{
+    border: solid 1px rgb(31, 31, 32);
+    transition: all .6s;
+}

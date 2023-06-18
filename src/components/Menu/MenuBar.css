@@ -1,0 +1,30 @@
+.bar{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    gap: 2%;
+    margin-right: 5%;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    cursor: pointer;
+}
+.barMenu{
+    background-color:  rgba(14, 14, 71, 0.897);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    gap: 2%;
+    width: 100%;
+    height: 70px;
+}
+.barMenu>div{
+    margin-left: 5%;
+}
+#searchBar{
+    align-items: center;
+    margin-left: 70%;
+}
